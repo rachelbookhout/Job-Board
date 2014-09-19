@@ -3,3 +3,5 @@
 <p><%= @job.description %></p>
 
 <%= link_to "Back to Index", jobs_path %>
+<%= link_to "Delete", job_path(@job), method: :delete %>
+<%= link_to "Edit", edit_job_path(@job)%>
